@@ -24,6 +24,7 @@ The data for this project originates from 4 datasets from the www.baseball-refer
  - [Fielding Stats](https://www.baseball-reference.com/leagues/majors/2024-fielding-leaders.shtml)
  - [Pitching Stats](https://www.baseball-reference.com/leagues/majors/2024-pitching-leaders.shtml)
  - [Batting Stats](https://www.baseball-reference.com/leagues/majors/2024-batting-leaders.shtml)
+
 These 3 last stat fields were joined to the modified rookie debut dataset as merged data frames. The site had a csv export option for each years table but not a comprehensive year-to-year dataset, so data downloading and joining all years was performed manually. Afterwards, data was merged via pandas dataframes merge() methods using a unified statistic which is the database's shortest possible player name to give them a unique identifier. Picture a string which names two John Smiths appropriately so they have unique identifiers with the least possible characters.
 
 The scripts and raw data processed prior to upload to observable are all present here along with a SHAP analysis utilizing ML to derive the most influential predicters of a player's WAR:
