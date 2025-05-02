@@ -50,7 +50,8 @@ The scripts and raw data processed prior to upload to observable are all present
   
  - **Filtering Interactivity**
  The filters present allow the user to fine-tune the type of player they wish to view by team, position, handedness, talent source, and year of debut. The radio buttons are standard Input objects from observable but aligned by html div language to arrange them horizontally.
- The 'team' and 'position' selectable elements are also native observable elements with a div alignment similar to the radio buttons with parameters that permit for multiple selections to be made simultaneously. 
+ The 'team' and 'position' selectable elements are also native observable elements with a div alignment similar to the radio buttons with parameters that permit for multiple selections to be made simultaneously.
+
  ![filter](filters.png)
  - ## Design Decisions
 	 - ### Visual Encodings
