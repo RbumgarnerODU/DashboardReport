@@ -7,7 +7,7 @@
 [Dashboard Link](https://observablehq.com/@r-bumgarner/infovis-project-mlb-farm-system-analysis)
 
 ![Image of information visualization dashboard](Dashboard.jpg)
- - ## Introduction
+## Introduction
 Baseball is an excellent topic for an information visualization project due to its rich and structured data. The sport has a long-standing tradition of meticulous record-keeping, with statistics recorded for nearly every aspect of the game—from player performance metrics like batting average, on-base percentage, and strikeout rates, to team-based analytics such as win-loss records and run differentials. This wealth of data provides a fertile ground for creating detailed visual representations that can reveal patterns, trends, and insights over time. These trends can provide a valuable tool for teams to make strategic decisions with their player development, player acquisitions, or game strategies.
 
 Moreover, baseball appeals to a broad audience, including fans, analysts, and fantasy sports enthusiasts, all of whom benefit from clear, engaging visualizations. Well-designed graphics can help explain complex statistical aggregations like Wins Above Replacement (WAR) or compare many players' performances in a more intuitive way. Interactive dashboards, heatmaps, spray charts, or pitch tracking plots can enhance the viewer’s understanding and appreciation of the sport’s nuances.
@@ -17,7 +17,7 @@ I can recall countless times when a baseball commentator during a baseball broad
 It was my hope for this project to provide a data dashboard capable of demonstrating any MLB teams' ability to draft and develop player talent by showing a trend in increased overall player performance as the time from drafting to debut increases. Along with this displayed data, I hoped to include relevant fielding, pitching, and batting stats while also allowing a user to filter by important player characteristics such as handedness and positions played.
 
 ![An image of suspected possible trends across league](Trends.jpg)
- - ## Data
+## Data
 The data for this project originates from 4 datasets from the www.baseball-reference.com page. 
  - [Rookie Stats](https://www.baseball-reference.com/leagues/majors/2021-rookies.shtml)
 
@@ -31,7 +31,7 @@ These 3 last stat fields were joined to the modified rookie debut dataset as mer
 The scripts and raw data processed prior to upload to observable are all present here along with a SHAP analysis utilizing ML to derive the most influential predicters of a player's WAR:
 [Link to Data Manipulation Zip](PythonWork.zip)
 
- - ## Visualization
+## Visualization
 
  The dashboard possesses 5 total visualization elements outside of the interactive inputs included to filter data and change interactive behaviors:
  
