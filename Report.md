@@ -20,6 +20,7 @@ It was my hope for this project to provide a data dashboard capable of demonstra
  - ## Data
 The data for this project originates from 4 datasets from the www.baseball-reference.com page. 
  - [Rookie Stats](https://www.baseball-reference.com/leagues/majors/2021-rookies.shtml)
+
  Contains great info about WAR during the rookie year, draft times, and handedness for batting and throwing. The draft and debut dates are used in deriving a time-to-debut statistic which plots the x-axis of the main scatterplot. Positions in this dataset are quite convoluted with positions divided into those where the player played >60% of the season's games, at least 10 games, and less than 10 games. This field was difficult to parse and ended up as a truth table of consistently played positions as well as a single string representation of the players most played positions as digits 1-9 and D for designated hitting. Data spans 11 years of baseball stats (11 chosen for no particular reason) from 2014-2024. 
  - [Fielding Stats](https://www.baseball-reference.com/leagues/majors/2024-fielding-leaders.shtml)
  - [Pitching Stats](https://www.baseball-reference.com/leagues/majors/2024-pitching-leaders.shtml)
